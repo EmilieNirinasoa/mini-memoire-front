@@ -1,0 +1,46 @@
+/* src/components/ContenuAc.css */
+
+.corps {
+    padding: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  .circle-deco {
+    position: absolute;
+    top: -50px; /* Ajustez cette valeur pour positionner le cercle */
+    left: -50px;
+    width: 150px;
+    height: auto;
+  }
+  
+  .contenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+  
+  .contenu h2 {
+    font-size: 96px;
+    color: #6a0dad; /* Couleur violette */
+    margin: 0;
+  }
+  
+  .contenu p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .image-main {
+    width: 400px; /* Ajustez la taille de l'image */
+    height: auto;
+  }
+  
+  /* src/components/ContenuAc.css */
+
+.image-main {
+    width: 701.42px; /* Largeur de l'image */
+    height: 539px;   /* Hauteur de l'image */
+  }
+  

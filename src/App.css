@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS pour désactiver les marges et padding par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

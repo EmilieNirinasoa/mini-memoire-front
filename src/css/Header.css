@@ -1,0 +1,87 @@
+/* Styles généraux */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    padding-top: 80px; /* Pour éviter que le contenu soit masqué sous le header fixe */
+  }
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+    padding: 5px;
+    z-index: 1000;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px; /* Espace entre les éléments */
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 30px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .btn-inscription {
+    background-color: rgba(191, 104, 190, 1); /* Violet */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-connexion {
+    background-color: white;
+    color: rgba(191, 104, 190, 1); /* Violet */
+    border: 2px solid rgba(191, 104, 190, 1);
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Effets au survol */
+  .btn-inscription:hover {
+    background-color: rgba(191, 104, 190, 1);
+  }
+  
+  .btn-connexion:hover {
+    color: white;
+    background-color: rgba(191, 104, 190, 1);
+  }
+  
